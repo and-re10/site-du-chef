@@ -1,4 +1,6 @@
 $danger: #dc3545;
+$carousel-indicator-width: 1em !default;
+$carousel-indicator-height: 1em !default;
 
 // Header -> Navbar et carousel
 
@@ -43,13 +45,10 @@ $danger: #dc3545;
 
 // BUTTONS CAROUSEL
 
-
-
-/*.carousel-indicators {
+.carousel-indicators {
     
     li {
-        height: 5px;
-        width: 5px;
+
         border-radius: 100%;
     }
 }
@@ -59,7 +58,7 @@ $danger: #dc3545;
     width: 0.4em;
     border: double 6px white;
     margin-top: 9px;
-}*/
+}
 
 .text-carousel {
     font-size: 320%;
@@ -228,6 +227,10 @@ h1 {
     border-radius: 15px;
 }
 
+.text-contact-s3 {
+    font-size: 19px;
+}
+ 
 .p-s3 {
     height: 60px;
     width: 85%;
@@ -262,8 +265,8 @@ h1 {
 }
 
 .btn-rouge-s3 {
-    height: 60px;
-    width: 200px;
+    height: 55px;
+    width: 170px;
     background-color: $danger;
     color: white;
     font-weight: bolder;
@@ -326,6 +329,7 @@ h1 {
 .info-s5 {
     background-color: $danger;
     border-radius: 15px;
+    width: 30%
 }
 
 .p-s5 {
@@ -369,7 +373,7 @@ h1 {
 }
 
 .tags {
-    padding: 0 20px;
+    padding: 0 13px;
     height: 35px;
     background-color: $danger;
     border: 1px solid lightgray;
@@ -377,6 +381,7 @@ h1 {
     color: white;
     font-size: 13px;
     margin-right: 10px;
+    font-weight: bolder;
 }
 
 // FOOTER

@@ -39,21 +39,17 @@
   bottom: auto;
 }
 
-/*.carousel-indicators {
-    
-    li {
-        height: 5px;
-        width: 5px;
-        border-radius: 100%;
-    }
+.carousel-indicators li {
+  border-radius: 100%;
 }
 
 .carousel-indicators .active {
-    height: 0.4em;
-    width: 0.4em;
-    border: double 6px white;
-    margin-top: 9px;
-}*/
+  height: 0.4em;
+  width: 0.4em;
+  border: double 6px white;
+  margin-top: 9px;
+}
+
 .text-carousel {
   font-size: 320%;
   font-family: 'Courgette', cursive;
@@ -211,6 +207,10 @@ h1 span {
   border-radius: 15px;
 }
 
+.text-contact-s3 {
+  font-size: 19px;
+}
+
 .p-s3 {
   height: 60px;
   width: 85%;
@@ -255,8 +255,8 @@ h1 span {
 }
 
 .btn-rouge-s3 {
-  height: 60px;
-  width: 200px;
+  height: 55px;
+  width: 170px;
   background-color: #dc3545;
   color: white;
   font-weight: bolder;
@@ -312,6 +312,7 @@ h1 span {
 .info-s5 {
   background-color: #dc3545;
   border-radius: 15px;
+  width: 30%;
 }
 
 .p-s5 {
@@ -349,7 +350,7 @@ h1 span {
 }
 
 .tags {
-  padding: 0 20px;
+  padding: 0 13px;
   height: 35px;
   background-color: #dc3545;
   border: 1px solid lightgray;
@@ -357,6 +358,7 @@ h1 span {
   color: white;
   font-size: 13px;
   margin-right: 10px;
+  font-weight: bolder;
 }
 
 .text-footer {
@@ -7336,8 +7338,8 @@ a.close.disabled {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 1em;
+  height: 1em;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
