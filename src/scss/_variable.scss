@@ -1,0 +1,320 @@
+$danger: #dc3545;
+
+// Header -> Navbar et carousel
+
+.position-nav {
+    z-index: 1;
+}
+
+.img-carousel {
+    width: 100%;
+    filter: brightness(20%);
+}
+
+.li-nav {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 5px 15px;
+    margin-top: 50px;
+    color: white;
+    a {
+        font-size: 100%;
+    }
+}  
+
+.li-nav:hover {
+    background-color: $danger;
+}
+
+.carousel-caption {
+    top: 25%;
+    bottom: auto;
+}
+
+.text-carousel {
+    font-size: 320%;
+    font-family: 'Courgette', cursive;
+}
+
+.occasion {
+    font-size: 150%;
+}
+
+.taste {
+    font-size: 150%;
+    color: $danger;
+}
+
+.makes {
+    font-size: 150%;
+}
+
+.remember {
+    font-size: 150%;
+}
+
+.bt-white {
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+}
+
+.bt-red {
+    width: 150px;
+    height: 50px;
+    background-color: $danger;
+    border-radius: 40px;
+    border: none;
+    color: white;
+}
+
+.div-bt {
+    height: 60px; width: 600px;
+    margin-top: 120px;
+    padding: 0;
+}
+
+.opac {
+    opacity: 90%;
+}
+
+//  Section 1 
+
+.s1-border {
+    border: 1px  solid lightgrey;
+    border-bottom: none;
+}
+
+.section1 {
+    background-image: url(../../chef/images/main_bg.jpg);
+
+    .container{
+        background-color: white;
+
+        .row {
+
+            h1 {
+                font-family: 'Courgette', cursive;
+                span {
+                    color: red;
+                    font-size: 130%;
+                }
+            }
+        }
+    }
+}
+
+.span-menu-list {
+    font-family: 'Courgette', cursive;
+    font-size: 165%;
+}
+
+.menu {
+    border-right: 1px solid lightgray;
+}
+
+.menu-bt {
+    background-color: white;
+    border: none;
+    padding-top: 15px;
+    //border-bottom: 1px solid lightgray;
+    
+}
+
+.icon-clr {
+    color: lightgrey;
+}
+
+.menu-bt:hover {
+    border-right: 6px solid $danger;
+    .icon-clr {
+        color: $danger;
+    }
+}
+
+.hr-1 {
+    width: 92%;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    span {
+        color: red;
+        font-size: 130%;
+    }
+}
+
+// LISTE CENTRE ET GAUCHE
+
+.img-ronde {
+    border-radius: 50%;
+    width: 110%;
+    padding: 4px;
+    background-color: lightgray;
+
+}
+
+.border-bt {
+    
+    border-bottom: 1px dashed lightgray;
+}
+
+.prix-menu {
+    background-color: lightgray;
+    color: $danger;
+    padding: 0 15px;
+    font-weight: bolder;
+}
+
+.bolder-list {
+    font-weight: bolder;
+}
+
+.list-text-size {
+    font-size: 15px;
+}
+
+// SECTION 2
+
+.section2 {
+    background-color: black;
+}
+
+.t-color-s2 {
+    color: white;
+}
+
+.border-img {
+    border-bottom: 1px solid lightgray;
+}
+// SECTION 3
+
+.list-s3 {
+    background-image: url(../../chef/images/book_table_bg.jpg);
+    border-radius: 15px;
+}
+
+.span-s3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#b-rad-s3 {
+    border-radius: 25px;
+}
+
+.btn-rouge-s3 {
+    height: 60px;
+    width: 200px;
+    background-color: $danger;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+    border: none;
+}
+
+.img-s3 {
+   
+    border-radius: 20px;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+.title-cards-s3 {
+    font-weight: bolder;
+
+}
+
+.text-cards-s3 {
+    font-size: 14px;
+    
+}
+
+// SECTION 4
+
+.section4 {
+    background-image: url(../../chef/images/testimonials_background.jpg);
+}
+
+.border-testi {
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.img-ronde-s4 {
+    border-radius: 50%;
+    padding: 4px;
+    background-color: lightgray;
+}
+
+.h3-s4 {
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+}
+
+.span-s4 {
+    font-size: 15px;
+    color: $danger;
+}
+
+.p-s4 {
+    font-size: 13px;
+    color: white;
+}
+
+// SECTION 5
+
+.info-s5 {
+    background-color: $danger;
+    border-radius: 15px;
+}
+
+.p-s5 {
+    font-size: 15px;
+    color: white;
+}
+
+.hr-s5 {
+    width: 90%;
+    border: 0.5px solid lightgray;
+}
+
+.icon-s5 {
+    color: white;
+}
+
+// SECTION 6
+
+.section6 {
+    background-image: url(../../chef/images/footer_background.jpg);
+}
+
+.text-s6 {
+    color: white;
+}
+
+.p-s6 {
+    font-size: 13px;
+}
+
+.tags {
+    padding: 0 20px;
+    height: 35px;
+    background-color: $danger;
+    border: 1px solid lightgray;
+    border-radius: 35px;
+    color: white;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+// FOOTER
+
+.text-footer {
+    font-size: 13px;
+}
