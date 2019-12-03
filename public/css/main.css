@@ -39,19 +39,21 @@
   bottom: auto;
 }
 
-.carousel-indicators li {
-  height: 1em;
-  width: 1em;
-  border-radius: 100%;
+/*.carousel-indicators {
+    
+    li {
+        height: 5px;
+        width: 5px;
+        border-radius: 100%;
+    }
 }
 
 .carousel-indicators .active {
-  height: 0.4em;
-  width: 0.4em;
-  border: double 6px white;
-  margin-top: 9px;
-}
-
+    height: 0.4em;
+    width: 0.4em;
+    border: double 6px white;
+    margin-top: 9px;
+}*/
 .text-carousel {
   font-size: 320%;
   font-family: 'Courgette', cursive;
