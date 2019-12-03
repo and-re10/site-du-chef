@@ -8,6 +8,16 @@
           filter: brightness(20%);
 }
 
+.imagefoot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../chef/images/bottom_decoration_img.png);
+  width: 100%;
+  height: 15px;
+  z-index: 99;
+}
+
 .li-nav {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
@@ -27,6 +37,19 @@
 .carousel-caption {
   top: 25%;
   bottom: auto;
+}
+
+.carousel-indicators li {
+  height: 1em;
+  width: 1em;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  height: 0.4em;
+  width: 0.4em;
+  border: double 6px white;
+  margin-top: 9px;
 }
 
 .text-carousel {
@@ -186,13 +209,47 @@ h1 span {
   border-radius: 15px;
 }
 
-.span-s3 {
-  font-size: 20px;
+.p-s3 {
+  height: 60px;
+  width: 85%;
+  background-color: #dc3545;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  bottom: 8%;
+}
+
+.span-size-s3 {
+  font-size: 25px;
+}
+
+.span-bolder-s3 {
   font-weight: bolder;
 }
 
-#b-rad-s3 {
-  border-radius: 25px;
+.b-rad-s3 {
+  height: 45px;
+  border-radius: 15px;
+  margin: 0 10px;
+  background-color: white;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
 }
 
 .btn-rouge-s3 {
@@ -271,6 +328,14 @@ h1 span {
 
 .section6 {
   background-image: url(../../chef/images/footer_background.jpg);
+}
+
+.section6 .imagefoot1 {
+  position: relative;
+  background: url(../../chef/images/footer_bottom_decoration_img.png);
+  width: 100%;
+  height: 15px;
+  z-index: 99;
 }
 
 .text-s6 {
