@@ -190,6 +190,12 @@ h1 span {
   font-size: 15px;
 }
 
+.border-bt-s1 {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
 .section2 {
   background-color: black;
 }
